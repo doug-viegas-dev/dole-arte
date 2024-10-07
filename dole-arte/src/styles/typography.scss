@@ -1,0 +1,47 @@
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.75rem; }
+  h4 { font-size: 1.5rem; }
+  h5 { font-size: 1.25rem; }
+  h6 { font-size: 1rem; }
+  
+  // Parágrafos
+  .heading {
+    &.one{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+  }
+
+  .tituloSeção {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+
+  .descrição {
+    color: var(--cinza-700);
+  }
+
+  .price {
+    color: var(--segunda-cor);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .footcard {
+    color: var(--cinza-600);
+    font-size: .8rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .tituloFooter {
+    text-align: left !important;
+      margin-bottom: .5rem;
+  }
